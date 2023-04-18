@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EcommerceWebApp/static/css/main.81af4786.css",
+    "main.js": "/EcommerceWebApp/static/js/main.f85ee95f.js",
+    "static/js/787.c4d10e65.chunk.js": "/EcommerceWebApp/static/js/787.c4d10e65.chunk.js",
+    "static/media/Hero Img.png": "/EcommerceWebApp/static/media/Hero Img.495aefaa43b62b15340f.png",
+    "index.html": "/EcommerceWebApp/index.html",
+    "main.81af4786.css.map": "/EcommerceWebApp/static/css/main.81af4786.css.map",
+    "main.f85ee95f.js.map": "/EcommerceWebApp/static/js/main.f85ee95f.js.map",
+    "787.c4d10e65.chunk.js.map": "/EcommerceWebApp/static/js/787.c4d10e65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81af4786.css",
+    "static/js/main.f85ee95f.js"
+  ]
+}
