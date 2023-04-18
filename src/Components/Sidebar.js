@@ -31,20 +31,15 @@ function Sidebar() {
                         <ul className='text-blue-500 list-none flex gap-2'>
                         <li className='mx-2'><img src={image} width={'35px'}/></li>
                         
-                            <li className='flex flex-col text-gray-500 max-w-[240px]  hover:cursor-pointer'><div className='hover:underline'>{title} 
-                            </div>
-                            <li className='flex flex-row  border  items-center  py-1 w-[50%] justify-center'>
-                            {/* <div>
-                                <Link to={`/product/${id}`}>
-                                <FaEye size={17}/>
-                                </Link>
-                            
-                            </div> */}
-                            <div className=''><button onClick={()=>addcartItem(id)} className='border-r text-center text-2xl px-2 hover:text-black'>+</button></div>
+                            <li className='flex flex-col text-gray-500 max-w-[240px]'>
+                                <Link className='hover:underline hover:cursor-pointer' to={`product/${id}`}>{title} 
+                            </Link>
+                            <li className='flex flex-row  border  items-center  py-1 w-[100px] justify-start'>
+                           <button onClick={()=>addcartItem(id)} className='border-r text-center text-3xl px-2 hover:text-black'>+</button>
                             <div className='text-xl px-2'>
                                 {amount}
                             </div>
-                            <div className=''><button onClick={()=>deleteCartItem(id,amount)} className="font-semibold text-2xl border-l px-2 hover:text-black">-</button></div>
+                          <button onClick={()=>deleteCartItem(id,amount)} className="border-l text-center text-3xl px-2 hover:text-black">-</button>
                             </li>
                             
                             </li>
@@ -52,7 +47,7 @@ function Sidebar() {
      
                         </ul>
                         <div className='text-red-500 flex flex-col justify-center items-center mx-2'>
-                            <button className='text-gray-700 text-xl hover:text-red-500' onClick={()=>clearCartItem(id)}>x</button>
+                            <button className='text-gray-700 text-2xl hover:text-red-500' onClick={()=>clearCartItem(id)}>x</button>
                         <div> {parseFloat((price*amount)).toFixed(2)}</div>
                         </div>
                        
